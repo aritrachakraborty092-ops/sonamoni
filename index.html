@@ -1,0 +1,1796 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>For Moupriya ❤️</title>
+
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+
+html{scroll-behavior:smooth}
+
+body{
+    font-family:Georgia,"Noto Serif Bengali",serif;
+    background:#09020d;
+    color:#fff;
+    overflow-x:hidden;
+}
+
+section{
+    position:relative;
+    min-height:100vh;
+}
+
+button{
+    font-family:inherit;
+}
+
+.music-btn{
+    position:fixed;
+    top:18px;
+    right:18px;
+    z-index:9999;
+    border:1px solid #ffffff30;
+    background:#ffffff12;
+    backdrop-filter:blur(12px);
+    color:#fff;
+    padding:10px 16px;
+    border-radius:30px;
+    cursor:pointer;
+}
+
+.part-label{
+    font-size:11px;
+    letter-spacing:4px;
+    color:#cda8bd;
+    margin-bottom:20px;
+}
+
+.next-btn{
+    margin-top:30px;
+    padding:14px 30px;
+    border:none;
+    border-radius:40px;
+    background:linear-gradient(135deg,#d05289,#814a9d);
+    color:#fff;
+    cursor:pointer;
+    font-size:15px;
+}
+
+.heart{
+    position:fixed;
+    bottom:-50px;
+    z-index:2;
+    color:#ff7eae;
+    pointer-events:none;
+    animation:floatHeart linear infinite;
+}
+
+.h1{left:8%;animation-duration:10s}
+.h2{left:25%;animation-duration:13s;animation-delay:2s}
+.h3{left:50%;animation-duration:11s;animation-delay:4s}
+.h4{left:72%;animation-duration:14s;animation-delay:1s}
+.h5{left:90%;animation-duration:12s;animation-delay:3s}
+
+@keyframes floatHeart{
+    0%{transform:translateY(0);opacity:0}
+    20%{opacity:.5}
+    100%{transform:translateY(-110vh) rotate(35deg);opacity:0}
+}
+
+
+/* ================= PART 1 ================= */
+
+.part1{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    padding:60px 20px;
+    text-align:center;
+    background:
+    radial-gradient(circle at 50% 20%,#542044,transparent 40%),
+    linear-gradient(180deg,#09020d,#180817,#08020c);
+}
+
+.part1-content{
+    width:min(700px,95%);
+    z-index:5;
+}
+
+.part1 h1{
+    font-size:clamp(45px,9vw,80px);
+    font-weight:normal;
+    background:linear-gradient(135deg,#fff,#ffb5d1,#d987b2);
+    -webkit-background-clip:text;
+    -webkit-text-fill-color:transparent;
+}
+
+.intro{
+    color:#d9c9d5;
+    font-size:17px;
+    line-height:1.9;
+    margin:25px 0;
+}
+
+.envelope-area{
+    display:flex;
+    justify-content:center;
+    margin:30px 0;
+}
+
+.envelope{
+    width:250px;
+    height:165px;
+    position:relative;
+    cursor:pointer;
+    transition:.5s;
+}
+
+.envelope:hover{
+    transform:translateY(-8px) scale(1.03);
+}
+
+.envelope-body{
+    position:absolute;
+    inset:0;
+    border-radius:8px;
+    background:linear-gradient(145deg,#8d315f,#4d1839);
+    box-shadow:0 25px 60px #0009;
+}
+
+.flap{
+    position:absolute;
+    top:0;
+    left:0;
+    width:0;
+    height:0;
+    border-left:125px solid transparent;
+    border-right:125px solid transparent;
+    border-top:95px solid #a84770;
+    transform-origin:top;
+    transition:.8s;
+    z-index:5;
+}
+
+.envelope.open .flap{
+    transform:rotateX(180deg);
+}
+
+.envelope-heart{
+    position:absolute;
+    left:50%;
+    top:52%;
+    transform:translate(-50%,-50%);
+    font-size:38px;
+    z-index:10;
+}
+
+.letter{
+    max-height:0;
+    overflow:hidden;
+    opacity:0;
+    transition:1s;
+}
+
+.letter.show{
+    max-height:900px;
+    opacity:1;
+}
+
+.letter-box{
+    background:linear-gradient(145deg,#fffafc,#f5e6ee);
+    color:#421b31;
+    padding:35px 30px;
+    border-radius:18px;
+    text-align:left;
+    line-height:2;
+    box-shadow:0 30px 80px #0009;
+}
+
+.signature{
+    text-align:right;
+    color:#8d315f;
+    font-size:20px;
+}
+
+
+/* ================= PART 2 ================= */
+
+.part2{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    padding:80px 20px;
+    text-align:center;
+    background:
+    radial-gradient(circle at 50% 35%,#54203f,transparent 42%),
+    linear-gradient(180deg,#10040f,#260b20,#0a020c);
+}
+
+.rose-container{
+    width:min(850px,95%);
+    z-index:5;
+}
+
+.rose-container h2{
+    font-size:clamp(40px,7vw,65px);
+    font-weight:normal;
+    color:#ffd4e3;
+}
+
+.rose-intro{
+    color:#d9c9d6;
+    line-height:1.9;
+    margin:20px 0 45px;
+}
+
+.roses{
+    display:flex;
+    justify-content:center;
+    gap:30px;
+    flex-wrap:wrap;
+}
+
+.rose{
+    width:90px;
+    height:90px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    border-radius:50%;
+    background:#ffffff08;
+    border:1px solid #ffffff15;
+    font-size:52px;
+    cursor:pointer;
+    transition:.35s;
+}
+
+.rose:hover{
+    transform:translateY(-10px) scale(1.12);
+}
+
+.rose.clicked{
+    animation:rosePop .55s;
+}
+
+@keyframes rosePop{
+    0%{transform:scale(1)}
+    45%{transform:scale(1.3) rotate(-8deg)}
+    70%{transform:scale(.9) rotate(8deg)}
+    100%{transform:scale(1)}
+}
+
+.rose-counter,
+.jar-counter{
+    margin-top:30px;
+    color:#cdbdca;
+    font-size:13px;
+}
+
+.rose-next,
+.jar-next{
+    margin-top:30px;
+    padding:14px 30px;
+    border:0;
+    border-radius:40px;
+    background:linear-gradient(135deg,#d05289,#814a9d);
+    color:#fff;
+    cursor:pointer;
+    opacity:.35;
+    pointer-events:none;
+}
+
+.rose-next.ready,
+.jar-next.ready{
+    opacity:1;
+    pointer-events:auto;
+}
+
+
+/* ================= PART 3 ================= */
+
+.part3{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    padding:80px 20px;
+    text-align:center;
+    background:
+    radial-gradient(circle at 50% 35%,#4e244e,transparent 40%),
+    linear-gradient(180deg,#0b0310,#210b20,#08020c);
+}
+
+.jar-container{
+    width:min(800px,95%);
+    z-index:5;
+}
+
+.jar-container h2{
+    font-size:clamp(40px,7vw,65px);
+    font-weight:normal;
+    color:#ffd5e4;
+}
+
+.jar-intro{
+    color:#d8c7d5;
+    line-height:1.8;
+    margin:20px 0 30px;
+}
+
+.jar-area{
+    width:210px;
+    height:285px;
+    margin:auto;
+    position:relative;
+    cursor:pointer;
+}
+
+.jar-area.shake{
+    animation:jarShake .65s;
+}
+
+@keyframes jarShake{
+    0%,100%{transform:rotate(0)}
+    20%{transform:rotate(-7deg)}
+    40%{transform:rotate(7deg)}
+    60%{transform:rotate(-5deg)}
+    80%{transform:rotate(5deg)}
+}
+
+.jar-lid{
+    position:absolute;
+    width:145px;
+    height:38px;
+    left:50%;
+    top:0;
+    transform:translateX(-50%);
+    border-radius:9px;
+    background:linear-gradient(180deg,#dc8eae,#8b456d);
+    border:2px solid #edb0c8;
+    z-index:5;
+}
+
+.jar-body{
+    position:absolute;
+    width:190px;
+    height:250px;
+    left:50%;
+    bottom:0;
+    transform:translateX(-50%);
+    border-radius:28px 28px 45px 45px;
+    background:#ffffff12;
+    border:2px solid #ffffff35;
+    box-shadow:inset 10px 0 25px #ffffff10,0 20px 60px #0008;
+    overflow:hidden;
+}
+
+.jar-shine{
+    position:absolute;
+    width:18px;
+    height:185px;
+    left:25px;
+    top:25px;
+    border-radius:20px;
+    background:#ffffff18;
+}
+
+.paper{
+    position:absolute;
+    font-size:32px;
+}
+
+.paper1{left:30px;bottom:35px}
+.paper2{left:72px;bottom:75px}
+.paper3{right:28px;bottom:40px}
+.paper4{right:52px;bottom:115px}
+.paper5{left:55px;bottom:135px}
+
+
+/* ================= POPUP ================= */
+
+.popup{
+    position:fixed;
+    inset:0;
+    z-index:9998;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    padding:20px;
+    background:#050108dd;
+    backdrop-filter:blur(12px);
+    opacity:0;
+    visibility:hidden;
+    transition:.35s;
+}
+
+.popup.show{
+    opacity:1;
+    visibility:visible;
+}
+
+.popup-box{
+    width:min(520px,95%);
+    padding:45px 30px;
+    position:relative;
+    text-align:center;
+    border-radius:30px;
+    background:linear-gradient(145deg,#48152f,#1d0825);
+    border:1px solid #ffffff25;
+    box-shadow:0 30px 100px #000;
+}
+
+.popup-close{
+    position:absolute;
+    top:15px;
+    right:18px;
+    width:35px;
+    height:35px;
+    border:0;
+    border-radius:50%;
+    background:#ffffff12;
+    color:#fff;
+    font-size:25px;
+    cursor:pointer;
+}
+
+.popup-icon{
+    font-size:65px;
+    margin-bottom:18px;
+}
+
+.popup-title{
+    color:#e9a8c2;
+    font-size:13px;
+    letter-spacing:2px;
+    margin-bottom:18px;
+}
+
+.popup-text{
+    color:#f5e8f0;
+    font-size:18px;
+    line-height:2;
+}
+
+
+/* ================= PART 4 ================= */
+
+.part4{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    padding:60px 20px;
+    overflow:hidden;
+    background:
+    radial-gradient(circle at 50% 35%,#17275a,transparent 40%),
+    linear-gradient(180deg,#020611,#07102b,#02030b);
+}
+
+.sky{
+    width:min(950px,95%);
+    min-height:650px;
+    position:relative;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    overflow:hidden;
+    border-radius:35px;
+    background:
+    radial-gradient(circle at 50% 30%,#263b77,transparent 45%),
+    linear-gradient(180deg,#050a1b,#02030d);
+    box-shadow:0 30px 100px #000b;
+}
+
+.star{
+    position:absolute;
+    width:3px;
+    height:3px;
+    border-radius:50%;
+    background:white;
+    animation:twinkle 2s infinite alternate;
+}
+
+.s1{left:8%;top:15%}.s2{left:18%;top:30%}
+.s3{left:29%;top:10%}.s4{left:40%;top:25%}
+.s5{left:52%;top:12%}.s6{left:65%;top:28%}
+.s7{left:78%;top:12%}.s8{left:90%;top:35%}
+.s9{left:13%;top:60%}.s10{left:83%;top:65%}
+.s11{left:35%;top:72%}.s12{left:61%;top:78%}
+
+@keyframes twinkle{
+    from{opacity:.2;transform:scale(.7)}
+    to{opacity:1;transform:scale(1.4)}
+}
+
+.moon{
+    width:170px;
+    height:170px;
+    border-radius:50%;
+    background:radial-gradient(circle at 35% 30%,#fffde9,#e8e5bd 65%,#bcb98d);
+    box-shadow:0 0 50px #fff9b5,0 0 120px #fff5a555;
+    position:absolute;
+    top:80px;
+    left:50%;
+    transform:translateX(-50%);
+}
+
+.crater{
+    position:absolute;
+    border-radius:50%;
+    background:#aaa77f55;
+}
+
+.c1{width:25px;height:25px;left:35px;top:45px}
+.c2{width:18px;height:18px;right:40px;top:70px}
+.c3{width:30px;height:30px;left:75px;bottom:30px}
+.c4{width:14px;height:14px;left:25px;bottom:40px}
+
+.shooting-star{
+    position:absolute;
+    width:120px;
+    height:2px;
+    background:linear-gradient(90deg,transparent,white);
+    transform:rotate(-35deg);
+    animation:shoot 5s linear infinite;
+}
+
+.ss1{top:28%;left:10%}
+.ss2{top:42%;right:8%;animation-delay:3s}
+
+@keyframes shoot{
+    0%{transform:translate(0,0) rotate(-35deg);opacity:0}
+    10%{opacity:1}
+    30%{transform:translate(250px,180px) rotate(-35deg);opacity:0}
+    100%{opacity:0}
+}
+
+.sky-content{
+    position:absolute;
+    left:20px;
+    right:20px;
+    bottom:70px;
+    text-align:center;
+    z-index:10;
+}
+
+.sky-content h2{
+    font-size:clamp(38px,7vw,65px);
+    font-weight:normal;
+    margin-bottom:20px;
+}
+
+.sky-message{
+    width:min(650px,95%);
+    margin:auto;
+    color:#d9dcf7;
+    font-size:18px;
+    line-height:2;
+    min-height:130px;
+}
+
+.replay-btn{
+    margin-top:20px;
+    padding:12px 25px;
+    border-radius:30px;
+    border:1px solid #ffffff35;
+    background:#ffffff10;
+    color:#fff;
+    cursor:pointer;
+}
+
+
+/* ================= PART 5 ================= */
+
+.part5{
+    padding:90px 20px 120px;
+    text-align:center;
+    background:
+    radial-gradient(circle at 50% 20%,#5a2349,transparent 38%),
+    linear-gradient(180deg,#0c030d,#21091d,#08020c);
+}
+
+.forever-container{
+    width:min(1000px,95%);
+    margin:auto;
+    z-index:5;
+    position:relative;
+}
+
+.forever-title{
+    font-size:clamp(55px,12vw,110px);
+    font-weight:normal;
+    background:linear-gradient(135deg,#fff,#ffb5d1,#d987b2);
+    -webkit-background-clip:text;
+    -webkit-text-fill-color:transparent;
+}
+
+.forever-subtitle{
+    color:#d8c7d5;
+    font-size:18px;
+    line-height:1.8;
+    margin:20px 0 55px;
+}
+
+.photos{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:22px;
+    margin-bottom:60px;
+}
+
+.photo-card{
+    background:#ffffff0c;
+    padding:10px;
+    border:1px solid #ffffff18;
+    border-radius:20px;
+    box-shadow:0 20px 50px #0008;
+}
+
+.photo-card img{
+    width:100%;
+    aspect-ratio:1/1;
+    object-fit:cover;
+    border-radius:14px;
+    display:block;
+}
+
+.photo-card p{
+    padding:15px 5px 8px;
+    color:#dfcbd7;
+    line-height:1.6;
+}
+
+.final-letter{
+    width:min(750px,95%);
+    margin:auto;
+    padding:40px 30px;
+    text-align:left;
+    color:#431c31;
+    background:linear-gradient(145deg,#fffafd,#f4e4ec);
+    border-radius:22px;
+    box-shadow:0 30px 90px #0009;
+    line-height:2;
+}
+
+.final-letter h3{
+    text-align:center;
+    color:#8d315f;
+    font-size:30px;
+    margin-bottom:25px;
+}
+
+.final-letter p{
+    margin-bottom:18px;
+}
+
+.promise-btn{
+    margin-top:40px;
+    padding:15px 32px;
+    border:none;
+    border-radius:40px;
+    background:linear-gradient(135deg,#d05289,#814a9d);
+    color:#fff;
+    cursor:pointer;
+}
+
+.promise{
+    max-height:0;
+    overflow:hidden;
+    opacity:0;
+    transition:1s;
+    margin-top:25px;
+}
+
+.promise.show{
+    max-height:600px;
+    opacity:1;
+}
+
+.promise-box{
+    width:min(700px,95%);
+    margin:auto;
+    padding:28px;
+    border-radius:18px;
+    background:#8d315f12;
+    border:1px solid #8d315f30;
+}
+
+.promise-box p{
+    font-size:18px;
+    line-height:2;
+}
+
+.to-be-continued{
+    margin-top:70px;
+    font-size:clamp(25px,5vw,42px);
+    color:#e9b5cb;
+    font-style:italic;
+}
+
+.infinity{
+    display:block;
+    font-size:55px;
+    margin-top:15px;
+}
+
+
+/* ================= MOBILE ================= */
+
+@media(max-width:700px){
+
+    .music-btn{
+        top:10px;
+        right:10px;
+        font-size:11px;
+        padding:9px 13px;
+    }
+
+    .part1,
+    .part2,
+    .part3,
+    .part4{
+        padding:70px 15px;
+    }
+
+    .roses{
+        gap:18px;
+    }
+
+    .rose{
+        width:72px;
+        height:72px;
+        font-size:43px;
+    }
+
+    .sky{
+        min-height:600px;
+        border-radius:25px;
+    }
+
+    .moon{
+        width:130px;
+        height:130px;
+        top:60px;
+    }
+
+    .photos{
+        grid-template-columns:1fr;
+        width:min(400px,95%);
+        margin-left:auto;
+        margin-right:auto;
+    }
+
+    .final-letter{
+        padding:30px 22px;
+        font-size:15px;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<!-- FLOATING HEARTS -->
+<div class="heart h1">❤️</div>
+<div class="heart h2">💕</div>
+<div class="heart h3">♡</div>
+<div class="heart h4">💗</div>
+<div class="heart h5">❤️</div>
+
+
+<!-- MUSIC -->
+<audio id="bgMusic" loop preload="auto">
+    <source src="raabta.mp3" type="audio/mpeg">
+</audio>
+
+<button class="music-btn" id="musicBtn">
+    🎵 Raabta
+</button>
+
+
+<!-- =====================================================
+PART 1
+===================================================== -->
+
+<section id="part1" class="part1">
+
+<div class="part1-content">
+
+<div class="part-label">
+TWO MONTHS • ONE STORY • US
+</div>
+
+<h1>
+For You,<br>
+Moupriya ❤️
+</h1>
+
+<p class="intro">
+
+কিছু গল্প লেখা হয় কলম দিয়ে...<br>
+আর কিছু গল্প লেখা হয় অনুভূতি দিয়ে। ❤️
+
+<br><br>
+
+আমাদের গল্পটা আমার কাছে
+ঠিক তেমনই একটা গল্প।
+
+</p>
+
+<div class="envelope-area">
+
+<div class="envelope" id="envelope">
+
+<div class="envelope-body"></div>
+<div class="flap"></div>
+
+<div class="envelope-heart">
+❤️
+</div>
+
+</div>
+
+</div>
+
+<p style="color:#bdaabd;font-size:13px">
+✨ চিঠিটা খুলতে envelope-এ click করো ✨
+</p>
+
+<div class="letter" id="letter">
+
+<div class="letter-box">
+
+<p>
+প্রিয় Moupriya,
+</p>
+
+<p>
+জানি না ঠিক কোন মুহূর্ত থেকে তুমি
+আমার কাছে এতটা special হয়ে উঠলে।
+শুধু জানি, এখন আমার প্রতিদিনের
+ছোট ছোট ভাবনার মধ্যে তোমার জন্য
+একটা জায়গা থাকেই।
+</p>
+
+<p>
+আমাদের এই দুই মাস হয়তো পৃথিবীর
+কাছে খুব ছোট একটা সময়...
+কিন্তু আমার কাছে এই সময়ের
+প্রতিটা মুহূর্ত অনেক মূল্যবান।
+</p>
+
+<p>
+তোমার সাথে কথা বলা, তোমার হাসি
+শোনা, তোমার অভিমান, তোমার ছোট
+ছোট care—সবকিছু মিলিয়ে তুমি
+আমার দিনের একটা সুন্দর অংশ হয়ে গেছো। ❤️
+</p>
+
+<p>
+আজ শুধু anniversary celebrate করার
+জন্য এই ছোট্ট জায়গাটা বানাইনি...
+তোমাকে একটা কথা মনে করিয়ে দেওয়ার
+জন্য বানিয়েছি—
+</p>
+
+<p>
+<b>
+তুমি আমার কাছে সত্যিই অনেক special। ❤️
+</b>
+</p>
+
+<div class="signature">
+তোমারই,<br>
+Aritra ❤️
+</div>
+
+</div>
+
+<button class="next-btn" id="part1Next">
+Continue Our Story → ❤️
+</button>
+
+</div>
+
+</div>
+</section>
+
+
+<!-- =====================================================
+PART 2
+===================================================== -->
+
+<section id="part2" class="part2">
+
+<div class="rose-container">
+
+<div class="part-label">
+OUR STORY • CHAPTER TWO
+</div>
+
+<h2>
+For You, Moupriya 🌹
+</h2>
+
+<p class="rose-intro">
+
+এই বাগানের প্রতিটা গোলাপের মধ্যে
+তোমার জন্য একটা করে কথা লুকিয়ে আছে।
+
+<br>
+
+একটা একটা করে গোলাপে click করো... ❤️
+
+</p>
+
+<div class="roses">
+
+<div class="rose"
+data-message="তোমার হাসিটা আমার দিনের সবচেয়ে সুন্দর জিনিস। ❤️">
+🌹
+</div>
+
+<div class="rose"
+data-message="তুমি কাছে থাকো বা দূরে, আমার চিন্তার মধ্যে তুমি সবসময়ই থাকো। 💕">
+🌹
+</div>
+
+<div class="rose"
+data-message="তোমার একটা ছোট্ট message-ও কখনো কখনো আমার পুরো দিনটা সুন্দর করে দেয়। ❤️">
+🌹
+</div>
+
+<div class="rose"
+data-message="তোমার অভিমানও আমার কাছে ভালোবাসারই একটা অন্যরকম ভাষা। 🥹❤️">
+🌹
+</div>
+
+<div class="rose"
+data-message="আর সবশেষে... তোমাকে পেয়ে আমি সত্যিই অনেকটা lucky। ♾️❤️">
+🌹
+</div>
+
+</div>
+
+<div class="rose-counter">
+<span id="roseCount">0</span> / 5 roses discovered 🌹
+</div>
+
+<button class="rose-next" id="roseNext">
+Continue Our Story →
+</button>
+
+</div>
+</section>
+
+
+<!-- ROSE POPUP -->
+
+<div class="popup" id="rosePopup">
+
+<div class="popup-box">
+
+<button class="popup-close" id="roseClose">
+×
+</button>
+
+<div class="popup-icon">
+🌹
+</div>
+
+<div class="popup-title">
+A ROSE FOR YOU
+</div>
+
+<p class="popup-text" id="roseMessage"></p>
+
+</div>
+</div>
+
+
+<!-- =====================================================
+PART 3
+===================================================== -->
+
+<section id="part3" class="part3">
+
+<div class="jar-container">
+
+<div class="part-label">
+OUR STORY • CHAPTER THREE
+</div>
+
+<h2>
+Our Little Love Jar 🫙
+</h2>
+
+<p class="jar-intro">
+
+এই ছোট্ট jar-এর মধ্যে
+তোমার জন্য কিছু কথা লুকিয়ে রেখেছি। ❤️
+
+<br><br>
+
+একটা একটা করে jar-এ click করো...
+
+</p>
+
+<div class="jar-area" id="loveJar">
+
+<div class="jar-lid"></div>
+
+<div class="jar-body">
+
+<div class="jar-shine"></div>
+
+<div class="paper paper1">❤️</div>
+<div class="paper paper2">💕</div>
+<div class="paper paper3">♡</div>
+<div class="paper paper4">💗</div>
+<div class="paper paper5">❤️</div>
+
+</div>
+</div>
+
+<p style="color:#bfaebf;font-size:13px;margin-top:20px">
+✨ Tap the jar to reveal a love note ✨
+</p>
+
+<div class="jar-counter">
+Love Notes: <span id="noteCount">0</span> / 8
+</div>
+
+<button class="jar-next" id="jarNext">
+Continue Our Story →
+</button>
+
+</div>
+</section>
+
+
+<!-- NOTE POPUP -->
+
+<div class="popup" id="notePopup">
+
+<div class="popup-box">
+
+<button class="popup-close" id="noteClose">
+×
+</button>
+
+<div class="popup-icon">
+💌
+</div>
+
+<div class="popup-title">
+A LITTLE NOTE FOR YOU
+</div>
+
+<p class="popup-text" id="noteText"></p>
+
+<div id="noteNumber"
+style="margin-top:20px;color:#cda8bd">
+</div>
+
+</div>
+</div>
+
+
+<!-- =====================================================
+PART 4
+===================================================== -->
+
+<section id="part4" class="part4">
+
+<div class="sky">
+
+<div class="star s1"></div>
+<div class="star s2"></div>
+<div class="star s3"></div>
+<div class="star s4"></div>
+<div class="star s5"></div>
+<div class="star s6"></div>
+<div class="star s7"></div>
+<div class="star s8"></div>
+<div class="star s9"></div>
+<div class="star s10"></div>
+<div class="star s11"></div>
+<div class="star s12"></div>
+
+<div class="moon">
+
+<div class="crater c1"></div>
+<div class="crater c2"></div>
+<div class="crater c3"></div>
+<div class="crater c4"></div>
+
+</div>
+
+<div class="shooting-star ss1"></div>
+<div class="shooting-star ss2"></div>
+
+<div class="sky-content">
+
+<div class="part-label">
+OUR STORY • CHAPTER FOUR
+</div>
+
+<h2>
+Under The Same Sky 🌙
+</h2>
+
+<p class="sky-message" id="skyMessage">
+</p>
+
+<button class="replay-btn" id="replaySky">
+✨ Read Again
+</button>
+
+<br>
+
+<button class="next-btn" id="part4Next">
+One Last Chapter → ♾️
+</button>
+
+</div>
+
+</div>
+</section>
+
+
+<!-- =====================================================
+PART 5
+===================================================== -->
+
+<section id="part5" class="part5">
+
+<div class="forever-container">
+
+<div class="part-label">
+OUR STORY • FINAL CHAPTER
+</div>
+
+<div class="forever-title">
+Forever
+</div>
+
+<p class="forever-subtitle">
+
+দুই মাসের একটা ছোট্ট celebration...
+<br>
+কিন্তু গল্পটা এখানেই শেষ নয়। ❤️
+
+</p>
+
+
+<!-- PHOTOS -->
+
+<div class="photos">
+
+<div class="photo-card">
+
+<img src="IMG-20260813-WA0014.jpg"
+alt="Our memory">
+
+<p>
+একটা ছবির মধ্যে
+একটা সুন্দর মুহূর্ত। ❤️
+</p>
+
+</div>
+
+<div class="photo-card">
+
+<img src="IMG-20260824-WA0024.jpg"
+alt="Our memory">
+
+<p>
+কিছু মুহূর্ত সময়ের থেকেও
+বেশি মূল্যবান। 💕
+</p>
+
+</div>
+
+<div class="photo-card">
+
+<img src="IMG-20260819-WA0024.jpg"
+alt="Our memory">
+
+<p>
+আর কিছু memories
+সারাজীবন থেকে যায়। ♾️
+</p>
+
+</div>
+
+</div>
+
+
+<!-- FINAL LETTER -->
+
+<div class="final-letter">
+
+<h3>
+একটা শেষ কথা... ❤️
+</h3>
+
+<p>
+Moupriya,
+</p>
+
+<p>
+আমাদের এই দুই মাসের journey-টা
+হয়তো খুব বড় কোনো সময় নয়,
+কিন্তু এই সময়ের মধ্যে তুমি আমার
+জীবনে যে জায়গাটা তৈরি করেছো,
+সেটা আমার কাছে অনেক বড়।
+</p>
+
+<p>
+তোমার সাথে কাটানো প্রতিটা ছোট
+মুহূর্ত, প্রতিটা conversation,
+হাসি, অভিমান, care—
+সবকিছু আমার কাছে আলাদা।
+</p>
+
+<p>
+আমরা হয়তো সবসময় পাশাপাশি
+থাকি না। মাঝে মাঝে distance থাকে,
+ব্যস্ততা থাকে, কিছু misunderstanding
+হয়...
+</p>
+
+<p>
+কিন্তু তার মাঝেও আমি চাই,
+আমাদের connection-টা যেন
+হারিয়ে না যায়।
+</p>
+
+<p>
+আমি চাই আমাদের গল্পে আরও
+অনেক chapter আসুক।
+আরও অনেক হাসি,
+আরও অনেক memories,
+আরও অনেক ছবি,
+আরও অনেক "মনে আছে?"
+মুহূর্ত।
+</p>
+
+<p>
+আজকের এই ছোট্ট website-টা
+হয়তো একটা digital gift...
+কিন্তু এর মধ্যে থাকা প্রতিটা
+কথার পিছনে আমার সত্যিকারের
+অনুভূতি আছে। ❤️
+</p>
+
+<p>
+<b>
+Happy 2 Months, Moupriya. ❤️
+</b>
+</p>
+
+<p>
+আজ দুই মাস...
+
+কিন্তু আমি চাই,
+আমাদের গল্পটা শুধু
+"দুই মাস" হয়ে না থাকুক।
+</p>
+
+<div style="text-align:center;color:#8d315f;font-size:20px">
+With all my heart,<br>
+<b>Aritra ❤️</b>
+</div>
+
+</div>
+
+
+<!-- PROMISE -->
+
+<button class="promise-btn" id="promiseBtn">
+One Last Promise ❤️
+</button>
+
+<div class="promise" id="promise">
+
+<div class="promise-box">
+
+<p>
+
+আমি promise করছি...
+
+<br><br>
+
+যতদিন আমাদের গল্প চলবে,
+আমি তোমার সাথে honest থাকতে চাই,
+তোমাকে respect করতে চাই,
+তোমার হাসির কারণ হতে চাই,
+আর আমাদের ছোট ছোট মুহূর্তগুলোকে
+কখনো ছোট করে দেখতে চাই না।
+
+<br><br>
+
+কারণ তুমি আমার কাছে
+শুধু একটা chapter নও...
+
+<br>
+
+<b>
+তুমি আমার গল্পের
+সবচেয়ে সুন্দর অংশ। ❤️
+</b>
+
+</p>
+
+</div>
+</div>
+
+
+<div class="to-be-continued">
+
+To Be Continued...
+
+<span class="infinity">
+♾️
+</span>
+
+</div>
+
+</div>
+</section>
+
+
+<script>
+
+/* ================= MUSIC ================= */
+
+const music=document.getElementById("bgMusic");
+const musicBtn=document.getElementById("musicBtn");
+
+let musicStarted=false;
+
+async function startMusic(){
+
+    if(musicStarted)return;
+
+    try{
+
+        music.volume=.65;
+        await music.play();
+
+        musicStarted=true;
+
+        musicBtn.innerHTML="🎵 Raabta • Playing";
+
+    }catch(e){
+
+        console.log("Music waiting for interaction");
+
+    }
+}
+
+document.addEventListener(
+    "click",
+    startMusic,
+    {once:true}
+);
+
+musicBtn.addEventListener(
+    "click",
+    async function(e){
+
+        e.stopPropagation();
+
+        if(!musicStarted){
+
+            await startMusic();
+            return;
+
+        }
+
+        if(music.paused){
+
+            await music.play();
+            musicBtn.innerHTML="🎵 Raabta • Playing";
+
+        }else{
+
+            music.pause();
+            musicBtn.innerHTML="🎵 Raabta • Paused";
+
+        }
+    }
+);
+
+
+/* ================= PART 1 ================= */
+
+const envelope=document.getElementById("envelope");
+const letter=document.getElementById("letter");
+
+envelope.addEventListener(
+    "click",
+    function(){
+
+        startMusic();
+
+        envelope.classList.toggle("open");
+        letter.classList.toggle("show");
+
+    }
+);
+
+document.getElementById("part1Next")
+.addEventListener(
+    "click",
+    function(){
+
+        document.getElementById("part2")
+        .scrollIntoView({
+            behavior:"smooth"
+        });
+
+    }
+);
+
+
+/* ================= ROSES ================= */
+
+const roses=document.querySelectorAll(".rose");
+const rosePopup=document.getElementById("rosePopup");
+const roseMessage=document.getElementById("roseMessage");
+const roseCount=document.getElementById("roseCount");
+const roseNext=document.getElementById("roseNext");
+
+let discoveredRoses=0;
+
+roses.forEach(function(rose){
+
+    rose.addEventListener(
+        "click",
+        function(){
+
+            startMusic();
+
+            rose.classList.remove("clicked");
+            void rose.offsetWidth;
+            rose.classList.add("clicked");
+
+            roseMessage.textContent=
+                rose.dataset.message;
+
+            rosePopup.classList.add("show");
+
+            if(!rose.dataset.discovered){
+
+                rose.dataset.discovered="true";
+
+                discoveredRoses++;
+
+                roseCount.textContent=
+                    discoveredRoses;
+            }
+
+            if(discoveredRoses===5){
+
+                roseNext.classList.add("ready");
+
+                roseNext.textContent=
+                    "সব গোলাপ খুলে ফেলেছো ❤️ →";
+            }
+
+        }
+    );
+
+});
+
+document.getElementById("roseClose")
+.addEventListener(
+    "click",
+    function(){
+        rosePopup.classList.remove("show");
+    }
+);
+
+rosePopup.addEventListener(
+    "click",
+    function(e){
+
+        if(e.target===rosePopup)
+            rosePopup.classList.remove("show");
+
+    }
+);
+
+roseNext.addEventListener(
+    "click",
+    function(){
+
+        document.getElementById("part3")
+        .scrollIntoView({
+            behavior:"smooth"
+        });
+
+    }
+);
+
+
+/* ================= LOVE JAR ================= */
+
+const loveJar=document.getElementById("loveJar");
+const notePopup=document.getElementById("notePopup");
+const noteText=document.getElementById("noteText");
+const noteNumber=document.getElementById("noteNumber");
+const noteCount=document.getElementById("noteCount");
+const jarNext=document.getElementById("jarNext");
+
+const loveNotes=[
+
+"তোমার সাথে কথা বললেই আমার মনটা অদ্ভুতভাবে শান্ত হয়ে যায়। ❤️",
+
+"তুমি আমার জীবনের এমন একটা সুন্দর অভ্যাস, যেটা আমি কোনোদিন ছাড়তে চাই না। 💕",
+
+"তোমার একটা ছোট্ট 'খেয়েছো?'—আমার কাছে অনেক বড় একটা care। 🥹❤️",
+
+"তোমার হাসিটা দেখলে সত্যিই মনে হয়, পৃথিবীটা একটু বেশি সুন্দর। 🌸",
+
+"তুমি রাগ করো, অভিমান করো... কিন্তু আমার থেকে কখনো দূরে যেও না। ❤️",
+
+"তোমার একটা message-এর জন্য আমি কখনো কখনো কতটা অপেক্ষা করি, সেটা হয়তো তুমি জানোই না। 💌",
+
+"আমাদের গল্পটা শুধু দুই মাসে থেমে যাক, আমি সেটা চাই না। আমি তোমার সাথে আরও অনেক chapter লিখতে চাই। ♾️",
+
+"সবশেষে শুধু একটা কথা—তোমাকে পেয়ে আমি সত্যিই অনেকটা lucky। ❤️"
+
+];
+
+let discoveredNotes=0;
+let usedNotes=[];
+
+loveJar.addEventListener(
+    "click",
+    function(){
+
+        startMusic();
+
+        loveJar.classList.remove("shake");
+        void loveJar.offsetWidth;
+        loveJar.classList.add("shake");
+
+        let available=[];
+
+        for(let i=0;i<loveNotes.length;i++){
+
+            if(!usedNotes.includes(i))
+                available.push(i);
+
+        }
+
+        if(available.length===0){
+
+            available=loveNotes.map(
+                (_,i)=>i
+            );
+
+            usedNotes=[];
+
+        }
+
+        const index=
+            available[
+                Math.floor(
+                    Math.random()*available.length
+                )
+            ];
+
+        usedNotes.push(index);
+
+        if(discoveredNotes<8)
+            discoveredNotes++;
+
+        noteCount.textContent=
+            discoveredNotes;
+
+        noteText.textContent=
+            loveNotes[index];
+
+        noteNumber.textContent=
+            "Love Note "+
+            discoveredNotes+
+            " / 8";
+
+        setTimeout(
+            ()=>{
+                notePopup.classList.add("show");
+            },
+            250
+        );
+
+        if(discoveredNotes>=8){
+
+            jarNext.classList.add("ready");
+
+            jarNext.textContent=
+                "Ready for Part 4? 🌙 →";
+
+        }
+
+    }
+);
+
+document.getElementById("noteClose")
+.addEventListener(
+    "click",
+    function(){
+        notePopup.classList.remove("show");
+    }
+);
+
+notePopup.addEventListener(
+    "click",
+    function(e){
+
+        if(e.target===notePopup)
+            notePopup.classList.remove("show");
+
+    }
+);
+
+jarNext.addEventListener(
+    "click",
+    function(){
+
+        document.getElementById("part4")
+        .scrollIntoView({
+            behavior:"smooth"
+        });
+
+    }
+);
+
+
+/* ================= NIGHT SKY ================= */
+
+const skyMessage=
+    document.getElementById("skyMessage");
+
+const skyLines=[
+
+"কখনো কখনো দূরত্ব আমাদের আলাদা জায়গায় রাখে... ❤️",
+
+"কিন্তু একই আকাশের নিচে আমরা দুজনেই থাকি। 🌙",
+
+"তাই তুমি যত দূরেই থাকো...",
+
+"এই আকাশের দিকে তাকালে মনে রেখো—",
+
+"কোথাও একজন মানুষ তোমাকে খুব ভালোবাসে। ❤️"
+
+];
+
+let typingTimer;
+
+function playSkyMessage(){
+
+    clearTimeout(typingTimer);
+
+    skyMessage.innerHTML="";
+
+    let lineIndex=0;
+
+    function showLine(){
+
+        if(lineIndex>=skyLines.length)
+            return;
+
+        const line=skyLines[lineIndex];
+
+        const span=
+            document.createElement("span");
+
+        skyMessage.appendChild(span);
+
+        let char=0;
+
+        function type(){
+
+            if(char<line.length){
+
+                span.textContent+=
+                    line.charAt(char);
+
+                char++;
+
+                typingTimer=
+                    setTimeout(type,45);
+
+            }else{
+
+                skyMessage.appendChild(
+                    document.createElement("br")
+                );
+
+                skyMessage.appendChild(
+                    document.createElement("br")
+                );
+
+                lineIndex++;
+
+                typingTimer=
+                    setTimeout(showLine,500);
+
+            }
+        }
+
+        type();
+    }
+
+    showLine();
+}
+
+playSkyMessage();
+
+document.getElementById("replaySky")
+.addEventListener(
+    "click",
+    function(){
+
+        startMusic();
+        playSkyMessage();
+
+    }
+);
+
+
+/* ================= PART 4 → 5 ================= */
+
+document.getElementById("part4Next")
+.addEventListener(
+    "click",
+    function(){
+
+        document.getElementById("part5")
+        .scrollIntoView({
+            behavior:"smooth"
+        });
+
+    }
+);
+
+
+/* ================= PROMISE ================= */
+
+const promiseBtn=
+    document.getElementById("promiseBtn");
+
+const promise=
+    document.getElementById("promise");
+
+promiseBtn.addEventListener(
+    "click",
+    function(){
+
+        startMusic();
+
+        promise.classList.toggle("show");
+
+        if(promise.classList.contains("show")){
+
+            promiseBtn.textContent=
+                "My Promise To You ❤️";
+
+        }else{
+
+            promiseBtn.textContent=
+                "One Last Promise ❤️";
+
+        }
+
+    }
+);
+
+</script>
+
+</body>
+</html>
